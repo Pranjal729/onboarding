@@ -1,0 +1,383 @@
+.companyLogoIcon {
+  position: relative;
+  width: 192px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.baseStepper1,
+.lockIcon {
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.lockIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.baseStepper1 {
+  border-radius: var(--br-xl);
+  background-color: var(--base-white);
+  border: 1px solid var(--primary-400);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stepName {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.baseStepper,
+.textContainer {
+  display: flex;
+  align-items: center;
+}
+.textContainer {
+  width: 32px;
+  flex-direction: row;
+  justify-content: center;
+}
+.baseStepper {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--primary-600);
+}
+.dividerStepper {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  height: 32px;
+}
+.baseStepper2,
+.baseStepper3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.baseStepper3 {
+  border-radius: var(--br-xl);
+  background-color: var(--base-white);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.baseStepper2 {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.likeIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.ctaSection,
+.stepper {
+  align-self: stretch;
+  display: flex;
+}
+.stepper {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 139px;
+}
+.ctaSection {
+  background-color: var(--neutral-50);
+  flex-direction: column;
+  padding: 24px var(--padding-29xl);
+  align-items: flex-end;
+  justify-content: center;
+}
+.label,
+.text1 {
+  position: relative;
+  letter-spacing: -0.1px;
+}
+.label {
+  align-self: stretch;
+  line-height: 20px;
+  font-weight: 500;
+}
+.text1 {
+  flex: 1;
+  line-height: 22px;
+}
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.informationIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.inputBox {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--base-white);
+  box-shadow: var(--shadow-xsm);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  height: 46px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--text-button-semibold-large-size);
+}
+.hintText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  color: var(--gray-50);
+  display: none;
+}
+.inputField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.hintText1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  color: var(--gray-50);
+}
+.inputBox2 {
+  border: 1px solid var(--neutral-700);
+  font-family: var(--text-button-semibold-large);
+  font-size: var(--text-button-semibold-large-size);
+  background-color: var(--base-white);
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  box-shadow: var(--shadow-xsm);
+  box-sizing: border-box;
+  height: 46px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputField2,
+.passwordSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.inputField2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.passwordSection {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 16px;
+}
+.checkboxBaseIcon {
+  position: relative;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.checkboxFrame {
+  display: flex;
+  flex-direction: row;
+  padding: 2px 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.someHeadingText,
+.supportingTextGoes {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 24px;
+}
+.someHeadingText {
+  font-weight: 500;
+}
+.supportingTextGoes {
+  color: var(--gray-50);
+  display: none;
+}
+.checkbox,
+.inputs,
+.textContainer4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textContainer4 {
+  flex: 1;
+  flex-direction: column;
+}
+.checkbox,
+.inputs {
+  align-self: stretch;
+}
+.checkbox {
+  flex-direction: row;
+  gap: 12px;
+  font-size: var(--text-l-regular-size);
+}
+.inputs {
+  flex-direction: column;
+  padding: 0 var(--padding-29xl);
+  gap: 24px;
+  color: var(--gray-700);
+}
+.placeholderIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.text4 {
+  position: relative;
+  font-size: var(--text-button-semibold-large-size);
+  line-height: 22px;
+  font-weight: 600;
+  font-family: var(--text-button-semibold-large);
+  color: var(--base-white);
+  text-align: left;
+}
+.chevronrightIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 18px;
+  background-color: var(--primary-600);
+  border-radius: var(--br-7xs);
+  box-shadow: var(--shadow-xsm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.ctaSection1,
+.div,
+.stepperModal {
+  display: flex;
+  flex-direction: column;
+}
+.ctaSection1 {
+  align-self: stretch;
+  background-color: var(--neutral-50);
+  padding: var(--padding-base) var(--padding-29xl);
+  align-items: flex-end;
+  justify-content: center;
+}
+.div,
+.stepperModal {
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.stepperModal {
+  border-radius: 10px;
+  background-color: var(--base-white);
+  box-shadow: var(--shadow-xsm);
+  border: 1px solid var(--neutral-700);
+  box-sizing: border-box;
+  width: 648px;
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  top: calc(50% - 352px);
+  left: calc(50% - 324px);
+}
+.onboarding {
+  position: relative;
+  background-color: var(--neutral-50);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-s-regular-size);
+  color: var(--gray-50);
+  font-family: var(--text-button-semibold-large);
+}
+
+@media only screen and (max-width: 800px) {
+  .stepperModal {
+    width: 80%;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .stepper {
+ 
+    gap: 46px;
+  }
+
+  .passwordSection {
+  width: auto;
+  flex-direction: column
+  }
+
+  .div {
+    position: absolute;
+    top: calc(50% - 475px);
+    left: calc(50% - 203px);
+  }
+
+  .button{
+    padding: var(--padding-xs) 20px;
+    gap: 230px;
+
+  }
+
+  .ctaSection {
+   padding-left: 25px;
+   padding-bottom: 25px;
+   
+  }
+  .ctaSection1 {
+   
+    padding: 0px;
+    padding-top: 25px;
+    
+   }
+}
